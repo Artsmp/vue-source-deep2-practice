@@ -1,0 +1,21 @@
+{
+  "name": "vue-source-deep2-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env ENV=development rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.68.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
